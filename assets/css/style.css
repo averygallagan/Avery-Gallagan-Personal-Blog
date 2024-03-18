@@ -1,0 +1,41 @@
+header button {
+    display: block;
+    float: right;
+}
+#container {
+    display:flex;
+}
+
+
+#divider {
+    border:2px solid black;
+    height: 600px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+h1 {
+    display: block;
+    height: 300px;
+    width: 300px;
+    line-height: 300px;
+    border-radius: 300px; 
+
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 170px;
+    top: 100px;
+}
+
+form {
+    position: relative;
+    right: 170px;
+    top: 100px;
+}
+
+input, #submitbtn {
+    display: block;
+    width: 100%;
+}
