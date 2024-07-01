@@ -1,7 +1,31 @@
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    border-bottom: double 5px black;
+}
+
 nav button, .light {
     float: right;
 }
 
 h2 {
     display: inline;
+}
+
+#posts-container li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
 }
